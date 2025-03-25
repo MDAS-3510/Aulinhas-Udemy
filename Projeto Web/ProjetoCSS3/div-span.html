@@ -7,41 +7,61 @@
     <title>Classes ids</title>
 
     <style type="text/css">
-
-        #topo{
-          background: blue;
-        }
-        #conteudo{
-          background: red;
+        #topo {
+            background: blue;
         }
 
+        #conteudo {
+            background: red;
+        }
+
+        #rodape {
+            background-color: black;
+            color: white;
+        }
+
+        .produto {
+            background-color: aqua;
+            margin: 10px;
+            padding: 10px;
+            margin-bottom: 20px;
+            border-radius: 20px;
+        }
+
+        .azul{
+            color: blue;
+        }
     </style>
 
 </head>
 
 <body>
 
-  <div id="topo">
-    <img src="imagens/Amazon-512.png" width="200">
-    <ul>
-      <li>Home</li>
-      <li>Produtos</li>
-      <li>Contato</li>
-    </ul>
-  </div>
-  
-  <div id="conteudo">
-    <div>
-      Produto 1
+    <div id="topo">
+        <img src="imagens/Amazon-512.png" width="200">
+        <ul>
+            <li>Home</li>
+            <li>Produtos</li>
+            <li>Contato</li>
+        </ul>
     </div>
-       <div>
-      Produto 2
+
+    <div id="conteudo">
+        <div class="produto">
+            Produto 1
+        </div>
+        <div class="produto">
+            Produto 2
+        </div>
+        <div class="produto">
+            Produto 3
+        </div>
     </div>
-       <div>
-      Produto 3
+
+    <div id="rodape">
+        Todos os <span class="azul">direitos</span> reservados
     </div>
-  </div>
-  
+
 </body>
 
 </html>
