@@ -23,5 +23,23 @@ li a{
     line-height: 3em;
     text-decoration: none;
     background: url(../img/aba-esquerda.png) no-repeat top left;
+    color: #fff;
+}
+
+ul a:hover{
+    color: #894a1f;
+}
+
+ul #atual{
+    background: url(../img/aba-direita-atual.png) no-repeat top right;
+}
+
+ul #atual a{
+    background: url(../img/aba-esquerda-atual.png) no-repeat top left;
+
+}
+
+p{
+    float: inline-end;
 }
 
