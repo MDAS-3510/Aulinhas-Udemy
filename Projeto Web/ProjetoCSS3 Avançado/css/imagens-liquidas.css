@@ -7,20 +7,25 @@ body{
 	width: 85%;
 	margin: 0 auto;
 	background: #fff;
-    min-width: 500px;
+    min-width: 720px;
     /* max-width: 960px; */
 }
 
 #marca {
-	height: 100px;
-	background: #9E9E9E;
+	height: 200px;
+	background: #225992 url(../img/cabecalho2.jpg) no-repeat center;
 	text-align: center;
-	line-height: 100px;
+	line-height: 200px;
 }
 
 #conteudo {
 	width: 73%;
 	float: right;
+}
+#conteudo-principal .img-noticia{
+    width: 94%;
+    padding: 2%;
+    max-width: 600px;
 }
 
 #conteudo-principal {
@@ -29,7 +34,7 @@ body{
 }
 
 #conteudo-secundario {
-	width: 34%;
+	width: 33%;
 	float: right;
 	background: #d1d1d1;
 }
