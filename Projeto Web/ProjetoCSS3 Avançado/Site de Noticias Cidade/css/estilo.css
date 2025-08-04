@@ -88,38 +88,112 @@ body.fotos #navegacao  a#fotos
     width: 180px;
     float: left;   
     margin: 0 0 20px -750px; 
-    background: yellow;   
+       
 }
 
 
-
-#tres-colunas #primario{
+#primario{
     width: 270px;
     float: left;
     margin: 0 0 20px 195px;
-    background: blue;
+    
 }
 
 #duas-colunas #primario{
     width: 555px;
     float: left;
     margin: 0 0 20px 195px;
-    background: blue;
+    
 }
 
 #uma-coluna #primario{
     width: 750px;
     float: left;
     margin-bottom: 30px;
-    background: blue;
+    
 }
 
 #secundario{
     width: 270px;
     float: left;
     margin: 0 0 20px 15px;
-    background: green;
+    
 }
+
+
+/*Caixa*/
+
+
+.caixa{
+    margin: 10px 0;
+    padding: 5px 0 5px 0;
+    background: #f3f3f3 url(../img/fundo-caixa.png); 
+}
+
+.caixa h2 {
+    font-size: 1em;
+    background: #294c71;
+    color: #fff;
+    padding: 5px;
+}
+
+.caixa-conteudo{
+    background: #fff;
+    padding: 5px;
+    margin-top: 5px ;
+
+}
+
+
+/* formatação lateral */
+
+#lateral ul a{
+    font-size: 0.9em;
+    padding: 3px;
+    display: block;
+    line-height: 30px;
+    color: #000;
+    text-decoration: none;
+    border-bottom: 1px solid #f3f3f3;
+}
+
+
+#lateral ul a:hover{
+    color:#a1a1a1;
+    background: #f9f9f9 url(../img/marcador.png) no-repeat left center;
+    padding-left: 20px;
+}
+
+
+label{
+    display: block;
+    cursor: pointer;
+}
+
+input{
+    font-size: 0.9em;
+    background-color: #fff;
+    padding: 5px;
+    width: 125px;
+}
+
+input.submit{
+    width: 80px;
+    color: #fff;
+    background-color: #b10333;
+    border: 2px solid #870529;
+}
+
+img{
+    border: 4px solid #dfdfdf;
+}
+
+img.imagem-principal{
+    width: 98%;
+    border: 3px solid #dfdfdf;
+}
+
+/*rodape*/
 
 #container-rodape{
     background:#294c71 ;
